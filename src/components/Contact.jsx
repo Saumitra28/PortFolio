@@ -128,6 +128,7 @@ const Contact = () => {
           </form>
         </div>
       </motion.div>
+      <p>Devolped by Saumitra</p>
     </div>
   );
 };
