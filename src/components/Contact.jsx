@@ -128,7 +128,7 @@ const Contact = () => {
           </form>
         </div>
       </motion.div>
-      <p>Devolped by Saumitra</p>
+      <p className="text-white">Devolped by Saumitra</p>
     </div>
   );
 };
