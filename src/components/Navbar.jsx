@@ -149,7 +149,8 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="mt-10">
-          <p>Copyright all rights reserved © 2023</p>
+          <p>Copyright all rights reserved © 2024</p>
+          <p className="text-center">Developed by Saumitra</p>
         </div>
       </div>
 
