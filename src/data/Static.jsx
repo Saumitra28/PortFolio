@@ -8,6 +8,7 @@ import bootstrap from "../assets/langues/bootstrap.png";
 import c from "../assets/langues/c.png";
 import py from "../assets/langues/py.png";
 import ScribbleSphere from "../assets/ScribbleSphere.png"
+import TaskSphere from "../assets/TaskSphere.png"
 import Emowell from "../assets/Emowell.png"
 import Cinema from "../assets/Cinema.png"
 import redux from "../assets/langues/redux.png";
@@ -17,6 +18,18 @@ import redux from "../assets/langues/redux.png";
 // Array of work objects
 export const works = [
   {
+    title: "TaskSphere",
+    imgUrl: TaskSphere,
+    tech: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "Express", color: "blue-text-gradient" },
+      { name: "MongoDb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    workUrl: "https://github.com/Saumitra28/TaskSphere",
+    duration: "400",
+  },
+  {
     title: "ScribbleSphere",
     imgUrl: ScribbleSphere,
     tech: [
@@ -24,7 +37,7 @@ export const works = [
       { name: "appwrite", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    workUrl: "https://github.com/",
+    workUrl: "https://github.com/Saumitra28/ScribbleSphere",
     duration: "400",
   },
   {
@@ -35,7 +48,7 @@ export const works = [
       { name: "mongodb", color: "green-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    workUrl: "https://github.com/",
+    workUrl: "https://github.com/Madhav-bansal013/Emowell",
     duration: "500",
   },
   {
@@ -46,7 +59,7 @@ export const works = [
       { name: "js", color: "green-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    workUrl: "https://github.com/",
+    workUrl: "https://github.com/Saumitra28/CINEMA",
     duration: "600",
   },
 ];
